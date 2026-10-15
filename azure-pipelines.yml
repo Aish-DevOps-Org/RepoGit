@@ -1,0 +1,12 @@
+trigger: none
+ 
+pr:
+  branches:
+    include:
+      - '*'
+ 
+pool:
+  vmImage: ubuntu-latest
+ 
+steps:
+- script: echo "PR trigger test"
